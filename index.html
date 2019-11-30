@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="./css/styles.css" type="text/css">
+		<link rel="stylesheet" href="./css/media.css" type="text/css">
+		<link rel="shortcut icon" href="./img/favicon.png" type="image/png">
+		<title>Дипломный проект</title>
+		<link rel="stylesheet" href="./libs/owlcarousel/assets/owl.carousel.min.css">
+		<link rel="stylesheet" href="./libs/owlcarousel/assets/owl.theme.default.css">
+		<link rel="stylesheet" href="./css/font-awesome/css/all.css">
+	</head>
+	<body>
+		<div class="popup-container popup-container__call">
+			<div class="popup">
+				<form>
+					<fieldset class="popup_section">
+						<legend class="popup_title">Заявка</legend>
+						<label for="user_name">* Ваше имя:</label>
+						<input type="text" name="name" size="30" id="user_name" class="popup_input">
+						<label for="phone">* Номер телефона:</label>
+						<input type="tel" name="phone" size="30" id="phone" class="popup_input">
+						<input type="submit" value="Отправить" class="popup_button">
+					</fieldset>
+				</form>
+			</div>
+		</div>
+		<div class="popup-container popup-container__more">
+				<div class="popup">
+					<form>
+						<fieldset class="popup_section">
+							<legend class="popup_title">Заявка</legend>
+							<label for="user_name">* Ваше имя:</label>
+							<input type="text" name="name" size="30" id="user_name" class="popup_input">
+							<label for="phone">* Номер телефона:</label>
+							<input type="tel" name="phone" size="30" id="phone" class="popup_input">
+							<label for="email">* Адрес электронной почты:</label>
+							<input type="email" name="email" size="30" id="email" class="popup_input">
+							<input type="submit" value="Отправить" class="popup_button popup_button__more">
+						</fieldset>
+					</form>
+				</div>
+			</div>
+		<header class="header">
+			<div class="site-header fixed-container flex-container">	
+				<div class="dropdown"><button class="dropdown__btn"></button></div>
+				<nav class=" nav  nav__header">
+					<ul class="nav__list">
+						<li class="nav__item nav__item--header"><a class="nav__link nav__link--header" href="#services">Услуги<i class="fab fa-servicestack"></i></a></li>
+						<li class="nav__item nav__item--header"><a class="nav__link nav__link--header" href="#portfolio">Портфолио<i class="fas fa-desktop"></i></a></li>
+						<li class="nav__item nav__item--header"><a class="nav__link nav__link--header" href="#price">Стоимость<i class="fas fa-ruble-sign"></i></a></li>
+					</ul>
+				</nav>
+				<div class="connection flex-container">
+					<a href="tel:+74999955577" class="tel_link">+7&nbsp;(499)&nbsp;995-55-77 </a>
+					<button class="connection__btn"><span class="connection__icon"><i class="fa fa-phone" aria-hidden="true"></i></span></button>
+					<button class="btn__call btn__call--header">Заказать звонок</button>
+				</div>
+			</div>
+			<div class="bg-gradient">
+				<div class="bg-gradient__tag1 page_is_loaded">&#123;&nbsp;&#125;</div>
+				<div class="bg-gradient__tag2 page_is_loaded">#</div>
+				<div class="bg-gradient__tag3 page_is_loaded">&lt;/&gt;</div>
+				<div class="bg-gradient__tag_hidden page_is_loaded">&lt;/&gt;</div>
+				<div class="bg-gradient__tag4 page_is_loaded">&lt;div&gt;</div>
+				<div class="bg-gradient__tag5 page_is_loaded">&lt;div&gt;</div> 
+				<div class="main-inform flex-container fixed-container">
+					<div class="main-inform__content">
+						<h1 class="main-inform__title">Мишин Дмитрий</h1>
+						<p class="main-inform__desc">Frontend-разработчик и веб-верстальщик</p>
+						<button class="btn__orange main-inform__btn">Узнать больше</button>
+					</div>
+					<div>	
+						<img src="./img/person.png" alt="my-photo" class="main-inform__photo">
+					</div>
+				</div>
+			</div>
+			<div class="main-inform__content--hidden fixed-container">
+				<h1 class="main-inform__title">Мишин Дмитрий</h1>
+				<p class="main-inform__desc">Frontend-разработчик и веб-верстальщик</p>
+				<button class="btn__orange main-inform__btn">Узнать больше</button>
+			</div>
+		</header>
+		<main>
+			<section class="wrap wrap-white">
+				<div class="wrap__content fixed-container" id="services">
+					<header>
+						<h2 class="wrap__header">Что я делаю</h2>
+					</header>
+					<div class="wrap__list flex-container">
+						<figure class="wrap__item wrap-white__item">
+							<img src="./img/img1.png" alt="photo">
+							<figcaption class="wrap__item--desc wrap-white__item--desc">Вёрстка лендинг-страниц<br>
+							 и сайтов любой сложности</figcaption>
+						</figure>
+						<figure class="wrap__item wrap-white__item">
+							<img src="./img/img2.png" alt="photo">
+							<figcaption class="wrap__item--desc wrap-white__item--desc">Адаптивная вёрстка под все<br>
+							 браузеры и устройства</figcaption>
+						</figure>
+						<figure class="wrap__item wrap-white__item">
+							<img src="./img/img3.png" alt="photo">
+							<figcaption class="wrap__item--desc wrap-white__item--desc">Frontend-разработка<br>
+							 и программирование</figcaption>
+						</figure>
+						<figure class="wrap__item wrap-white__item">
+							<img src="./img/img4.png" alt="photo">
+							<figcaption class="wrap__item--desc wrap-white__item--desc">Исправление и доработка<br>
+						 	существующей вёрстки</figcaption>
+						</figure>
+					</div>
+					<button class="btn__orange wrap-white__btn">Узнать стоимость</button>
+				</div>
+			</section>
+			<section class="wrap wrap-grey">
+				<div class="wrap__content fixed-container" id="portfolio">
+					<header>
+						<h2 class="wrap__header">Примеры моих работ</h2>
+					</header>
+					<div class="owl-carousel owl-theme">
+						<figure class="wrap__item wrap-grey__item">
+							<a><img src="./img/psycology.png" alt="Сайт психолога Веры Антоновой"></a>
+							<figcaption class="wrap__item--desc wrap-grey__item--desc">Сайт психолога Веры Антоновой</figcaption>
+						</figure>
+						<figure class="wrap__item wrap-grey__item">
+							<a><img src="./img/children.png" alt="Сайт магазина детской одежды"></a>
+							<figcaption class="wrap__item--desc wrap-grey__item--desc">Сайт магазина детской одежды</figcaption>
+						</figure>
+						<figure class="wrap__item wrap-grey__item">
+							<a><img src="./img/fishing.png" alt="Сайт магазина &quot;Рыболов&quot;"></a>
+							<figcaption class="wrap__item--desc wrap-grey__item--desc">Сайт магазина &quot;Рыболов&quot;</figcaption>
+						</figure>
+						<figure class="wrap__item wrap-grey__item">
+							<a><img src="./img/psycology.png" alt="Сайт психолога Веры Антоновой"></a>
+							<figcaption class="wrap__item--desc wrap-grey__item--desc">Сайт психолога Веры Антоновой</figcaption>
+						</figure>
+					</div>
+					<button class="btn__orange wrap-grey__btn">Заказать проект</button>
+				</div>
+			</section>
+			<section class="wrap wrap-gradient" id="price">
+				<div class="wrap-gradient__tag1 page_is_loaded">&#123;&nbsp;&#125;</div>
+				<div class="wrap-gradient__tag2 page_is_loaded">#</div>
+				<div class="wrap-gradient__tag3 page_is_loaded">&lt;div&gt;</div>
+				<div class="wrap-gradient__tag4 page_is_loaded">&lt;/&gt;</div>
+				<div class="wrap-gradient__tag5 page_is_loaded">&#123;&nbsp;&#125;</div>
+				<div class="wrap-gradient__text">
+					<h2 class="wrap-gradient__text--bold">Адаптивная вёрстка под все устройства<br>
+					 и браузеры от 1000 рублей всего за 4 часа.*</h2>
+					<p class="wrap-gradient__text--small">* Сроки и стоимость могут отличаться от заявленных и рассчитываются индивидуально,<br>
+					 в зависимости от сложности задач.</p>
+				</div>
+			</section>
+		</main>
+		<footer>
+			<div class="footer fixed-container flex-container">
+				<div class="footer__container--left">
+					<nav class="nav nav__footer">
+						<ul class="nav__list">
+							<li class="nav__item nav__item--footer"><a href="#services" class="nav__link nav__link--footer">Услуги</a></li>
+							<li class="nav__item nav__item--footer"><a href="#portfolio" class="nav__link nav__link--footer">Портфолио</a></li>
+							<li class="nav__item nav__item--footer"><a href="#price" class="nav__link nav__link--footer">Стоимость</a></li>
+						</ul>	
+					</nav>
+				</div>
+				<div class="footer__container--center">
+					<div class="footer__container_center_phone">
+						<i class="fa fa-phone" aria-hidden="true"></i><a href="tel:+74999955577" class="tel_link"> +7 (499) 995-77-55</a>
+					</div>
+					<div class="footer__container_center_e-mail">
+						<i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:dmitry@mishin.com" class="mail_link">dmitry@mishin.com </a>
+					</div>
+				</div>
+				<div class="footer__container--right">
+					<button class="btn__call btn__call--footer">Заказать звонок</button>
+					<button class="btn__orange btn__orange--footer">Заказать звонок</button>
+					<div class="footer__container_right_socials">
+						<ul class="nav__list">
+							<li class="nav__item nav__item--socials"><a class="nav__link nav-link nav-link--vk" href="#"></a></li>
+							<li class="nav__item nav__item--socials"><a class="nav__link nav-link nav-link--fb socials__link_fb" href="#"></a></li>
+							<li class="nav__item nav__item--socials"><a class="nav__link nav-link nav-link--tw socials__link_tw" href="#"></a></li>
+							<li class="nav__item nav__item--socials"><a class="nav__link nav-link nav-link--inst socials__link_inst" href="#"></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="footer__copyright">
+				&copy; Дмитрий Мишин, 2019
+			</div>
+		</footer>
+		<script src="./libs/jquery-3.4.1.min.js"></script>
+		<script src="./libs/owlcarousel/owl.carousel.min.js"></script>
+		<script src="./scripts/script.js"></script>
+	</body>
+</html>
